@@ -584,7 +584,7 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp)
     if (IsInitialBlockDownload())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Shroud is downloading blocks...");
 
-    if (!shroudnodeSync.IsSynced() && chainActive.Tip()->nHeight > 700)
+    if (!shroudnodeSync.IsSynced() && chainActive.Tip()->nHeight > 20000)
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Shroud Core is syncing with network...");
 
     static unsigned int nTransactionsUpdatedLast;
