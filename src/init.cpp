@@ -1146,7 +1146,7 @@ void InitLogging() {
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Index version %s\n", FormatFullVersion());
+    LogPrintf("Shroud version %s\n", FormatFullVersion());
 }
 
 /** Initialize bitcoin.
