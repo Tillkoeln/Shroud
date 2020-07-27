@@ -182,7 +182,7 @@ QStringList StyleSheet::getSupportedThemes()
 
 QStringList StyleSheet::getSupportedThemesNames()
 {
-    return QStringList() << "Light blue theme" << "Dark blue theme" << "Dark theme";
+    return QStringList() << "Light Green Theme" << "Dark Green Theme" << "Dark Theme";
 }
 
 

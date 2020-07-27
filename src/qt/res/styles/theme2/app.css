@@ -88,7 +88,7 @@ Line Edit CSS
 QLineEdit{
     border: 1px solid #49587A;
     border-radius: 14px;
-    background-color: #1a233a;
+    background-color: #1a3a22;
     color: #6fab79;
     padding: 4px;
 }
@@ -109,12 +109,12 @@ QAbstractItemView#autoCompleterPopup{
 }
 QAbstractItemView#autoCompleterPopup::item{
     background-color: #49587a;
-    color: #1A233A;
+    color: #1a3a22;
     padding: 4px;
     padding-left: 10px;
 }
 QAbstractItemView#autoCompleterPopup::item:selected {
-    background-color: #1A233A;
+    background-color: #1a3a22;
     color: #ffffff;
 }
 /*--------------------------------------------
@@ -130,7 +130,7 @@ Combo Box CSS
 QComboBox {
     border: 1px solid #49587A;
     border-radius: 14px;
-    background-color: #1A233A;
+    background-color: #1a3a22;
     color: #6fab79;
     padding: 4px;
     padding-left: 10px;
@@ -153,12 +153,12 @@ QComboBox:down-arrow {
 }
 QComboBox QAbstractItemView::item {
     background-color: #49587a;
-    color: #1A233A;
+    color: #1a3a22;
     padding: 4px;
     padding-left: 10px;
 }
 QComboBox QAbstractItemView::item:selected {
-    background-color: #1A233A;
+    background-color: #1a3a22;
     color: #ffffff;
 }
 QComboBox QAbstractItemView{
@@ -254,7 +254,7 @@ Spin Box CSS
 --------------------------------------------*/
 QAbstractSpinBox {
     padding: 4px;
-    background-color: #1a233a;
+    background-color: #1a3a22;
     background-position: right;
     background-repeat: no-repeat;
     border: 1px solid #49587A;
@@ -368,7 +368,7 @@ QTextEdit QScrollBar:vertical {
     border-radius: 0px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    background: #1A233A;
+    background: #1a3a22;
     width: 12px;
     padding: 5px 0px 5px 2px;
 }
@@ -385,7 +385,7 @@ QPlainTextEdit QScrollBar:vertical {
     border-radius: 0px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    background: #1A233A;
+    background: #1a3a22;
     width: 12px;
     padding: 5px 0px 5px 2px;
 }
@@ -408,7 +408,7 @@ QComboBox QScrollBar:vertical {
 }
 QComboBox QScrollBar::handle:vertical {
     border: none;
-    background: #1A233A;
+    background: #1a3a22;
     border-radius: 5px;
     min-height: 30px;
 }
@@ -492,7 +492,7 @@ QTableView::item{
 }
 QTableView::item:selected{
     qproperty-showGrid: false;
-    background: #52dd4f;
+    background: #1a6e18;
     color: #ffffff;
 }
 QHeaderView::disabled{
@@ -517,7 +517,7 @@ QTextEdit CSS
 QTextEdit {
     border: 1px solid #49587A;
     border-radius: 14px;
-    background-color: #1a233a;
+    background-color: #1a3a22;
     color: #ffffff;
     padding-left: 5px;
 }
@@ -537,7 +537,7 @@ QPlainTextEdit CSS
 QPlainTextEdit {
     border: 1px solid #49587A;
     border-radius: 14px;
-    background-color: #1a233a;
+    background-color: #1a3a22;
     color: #ffffff;
     padding-left: 5px;
 }
@@ -580,12 +580,12 @@ UnitDisplayStatusBarControl {
 }
 UnitDisplayStatusBarControl QMenu::item {
     background-color: #49587a;
-    color: #1A233A;
+    color: #1a3a22;
     padding: 4px;
     padding-left: 10px;
 }
 UnitDisplayStatusBarControl QMenu::item:selected {
-    background-color: #1A233A;
+    background-color: #1a3a22;
     color: #ffffff;
 }
 UnitDisplayStatusBarControl QMenu{
@@ -599,14 +599,14 @@ UnitDisplayStatusBarControl QMenu{
 Progress Bar CSS
 --------------------------------------------*/
 QProgressBar {
-    background-color: #1A233A;
+    background-color: #1a3a22;
     font: 10pt;
     color: #94ccf2;
     border-radius: 0px;
     text-align: center;
 }
 QProgressBar::chunk {
-    background-color: #52dd4f;
+    background-color: #1a6e18;
     border-radius: 0px;
 }
 QProgressBar::disabled {
@@ -662,7 +662,7 @@ QMenuBar::item {
 }
 QMenuBar::item:selected {
     border: none;
-    color: #52dd4f;
+    color: #1a6e18;
 }
 QMenuBar::item:disabled {
     color: rgba(111, 128, 171, 20%);
@@ -677,10 +677,10 @@ QMenu::item {
     border: none;
     padding: 5px 32px;
     background-color: #49587a;
-    color: #1A233A;
+    color: #1a3a22;
 }
 QMenu::item:selected {
-    background-color: #1A233A;
+    background-color: #1a3a22;
     color:#ffffff;
 }
 QMenu::separator{
@@ -818,7 +818,7 @@ QBalloonTip QPushButton::disabled {
 Push Button CSS
 --------------------------------------------*/
 QPushButton {
-    color: #52dd4f; 
+    color: #1a6e18; 
     background: transparent;
     border: 1px solid #49587a;
     border-radius: 14px;
@@ -933,7 +933,7 @@ QCalendarWidget QAbstractItemView:disabled {
 Modal Overlay CSS
 --------------------------------------------*/
 #ModalOverlay QProgressBar {
-    background-color: #1A233A;
+    background-color: #1a3a22;
     border: none;
     font: 1pt;
     color: transparent;
@@ -941,7 +941,7 @@ Modal Overlay CSS
     height: 9px;
 }
 #ModalOverlay QProgressBar::chunk {
-    background-color: #52dd4f;
+    background-color: #1a6e18;
     border-radius: 4px;
 }
 #ModalOverlay QLabel { 
@@ -1107,7 +1107,7 @@ SendCoinsDialog #labelBalance{
     color: white;
 }
 SendCoinsDialog QScrollArea{
-    border: 1px solid #1A233A;
+    border: 1px solid #1a3a22;
     border-radius: 5px;
 }
 SendCoinsDialog #scrollAreaWidgetContents{
@@ -1115,7 +1115,7 @@ SendCoinsDialog #scrollAreaWidgetContents{
 }
 QFrame #frameFee,
 QWidget #coinControlContentsWidget{
-    border: 1px solid #1A233A;
+    border: 1px solid #1a3a22;
     border-radius: 5px;
 }
 SendCoinsDialog QScrollBar:vertical{

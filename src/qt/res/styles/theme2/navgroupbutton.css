@@ -9,11 +9,11 @@ QToolButton {
     padding: 10px 20px 10px 10px;
 }
 QToolButton:checked {
-    border-right: 3px solid #52dd4f;
+    border-right: 3px solid #1a6e18;
     padding: 3px 20px 5px 10px;
 }
 QToolButton:pressed, QToolButton:hover:pressed, QToolButton:checked {
-    color: #52dd4f;
+    color: #1a6e18;
     background: #1e2b47;
 }
 QToolButton:hover:!checked {
