@@ -181,9 +181,12 @@ public:
         //vSeeds.push_back(CDNSSeedData("seed1.shroudx.org", "seed1.shroudx.org", false));
 
         // Single trusted IPs incase of seeder failure / downtime
-        vSeeds.push_back(CDNSSeedData("37.72.175.139", "37.72.175.139"));
-        vSeeds.push_back(CDNSSeedData("89.38.225.171", "89.38.225.171")); 
-        
+        vSeeds.push_back(CDNSSeedData("188.166.250.71", "188.166.250.71")); 
+        vSeeds.push_back(CDNSSeedData("161.35.162.49", "161.35.162.49"));
+        vSeeds.push_back(CDNSSeedData("104.131.39.211", "104.131.39.211"));
+        vSeeds.push_back(CDNSSeedData("188.166.244.152", "188.166.244.152"));
+        vSeeds.push_back(CDNSSeedData("167.71.155.37", "167.71.155.37"));
+
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         base58Prefixes[PUBKEY_ADDRESS] = std::vector < unsigned char > (1, 63);//Shroud address starts with 'S'
@@ -210,11 +213,13 @@ public:
         checkpointData = (CCheckpointData) {
                 boost::assign::map_list_of
                     (0, genesis.GetHash()),
+                    (501,uint256S("0x000000005c5581de7352f91a9d2528981004727df56dfb50aef53b9eadc28f7d"))
+                    
 
-                //1591286991,         // * UNIX timestamp of last checkpoint block
-                //148510,             // * total number of transactions between genesis and last checkpoint
+                1595847983,         // * UNIX timestamp of last checkpoint block
+                1,             // * total number of transactions between genesis and last checkpoint
                                     //   (the tx=... number in the SetBestChain debug.log lines)
-                //1440                // * estimated number of transactions per day after checkpoint
+                200                // * estimated number of transactions per day after checkpoint
         };
 
         consensus.nSpendV15StartBlock = ZC_V1_5_STARTING_BLOCK;
