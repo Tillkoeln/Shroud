@@ -464,7 +464,7 @@ UniValue shroudnodelist(const UniValue &params, bool fHelp) {
                         "  lastpaidblock  - Print the last block height a node was paid on the network\n"
                         "  lastpaidtime   - Print the last time a node was paid on the network\n"
                         "  lastseen       - Print timestamp of when a shroudnode was last seen on the network\n"
-                        "  payee          - Print Index address associated with a shroudnode (can be additionally filtered,\n"
+                        "  payee          - Print Shroud address associated with a shroudnode (can be additionally filtered,\n"
                         "                   partial match)\n"
                         "  protocol       - Print protocol of a shroudnode (can be additionally filtered, exact match))\n"
                         "  rank           - Print rank of a shroudnode based on current block\n"

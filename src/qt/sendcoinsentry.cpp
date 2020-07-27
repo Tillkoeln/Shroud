@@ -37,9 +37,9 @@ SendCoinsEntry::SendCoinsEntry(const PlatformStyle *platformStyle, QWidget *pare
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal Index address field
+    // normal Shroud address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying Index address(es)
+    // just a label for displaying Shroud address(es)
     ui->payTo_is->setFont(GUIUtil::fixedPitchFont());
 
     // Connect signals

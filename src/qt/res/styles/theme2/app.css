@@ -86,7 +86,7 @@ NavigationBar #hLineStatus{
 Line Edit CSS
 --------------------------------------------*/
 QLineEdit{
-    border: 1px solid #49587A;
+    border: 1px solid #497a4b;
     border-radius: 14px;
     background-color: #1a3a22;
     color: #6fab79;
@@ -103,12 +103,12 @@ QLineEdit::disabled{
     color: rgba(111, 128, 171, 20%);
 }
 QAbstractItemView#autoCompleterPopup{
-    background-color: #49587a;
+    background-color: #497a4b;
     border: none;
     padding: 4px;
 }
 QAbstractItemView#autoCompleterPopup::item{
-    background-color: #49587a;
+    background-color: #497a4b;
     color: #1a3a22;
     padding: 4px;
     padding-left: 10px;
@@ -128,7 +128,7 @@ QListView {
 Combo Box CSS
 --------------------------------------------*/
 QComboBox {
-    border: 1px solid #49587A;
+    border: 1px solid #497a4b;
     border-radius: 14px;
     background-color: #1a3a22;
     color: #6fab79;
@@ -142,7 +142,7 @@ QComboBox:hover {
 }
 QComboBox:drop-down {
     border: 0px;
-    border-left: 1px solid #49587A;
+    border-left: 1px solid #497a4b;
     margin-left: -8px;
 }
 QComboBox:down-arrow {
@@ -152,7 +152,7 @@ QComboBox:down-arrow {
     top: 1px;
 }
 QComboBox QAbstractItemView::item {
-    background-color: #49587a;
+    background-color: #497a4b;
     color: #1a3a22;
     padding: 4px;
     padding-left: 10px;
@@ -162,7 +162,7 @@ QComboBox QAbstractItemView::item:selected {
     color: #ffffff;
 }
 QComboBox QAbstractItemView{
-    background-color: #49587a;
+    background-color: #497a4b;
     border: none;
     border-radius: 6px;
     padding: 6px 0px;
@@ -257,7 +257,7 @@ QAbstractSpinBox {
     background-color: #1a3a22;
     background-position: right;
     background-repeat: no-repeat;
-    border: 1px solid #49587A;
+    border: 1px solid #497a4b;
     border-radius: 14px;
     color: #6fab79;
     padding-left: 12px;
@@ -267,14 +267,14 @@ QAbstractSpinBox:hover {
 }
 QAbstractSpinBox::up-button {
     border: none;
-    border-left: 1px solid #49587A;
+    border-left: 1px solid #497a4b;
     width: 22px;
     background-color: transparent;
     border-top-right-radius: 12px;
 }
 QAbstractSpinBox::down-button {
     border: none;
-    border-left: 1px solid #49587A;
+    border-left: 1px solid #497a4b;
     margin-top: -1px;
     width: 22px;
     background-color: transparent;
@@ -357,7 +357,7 @@ QScrollBar:vertical {
 }
 QScrollBar::handle:vertical {
     border: none;
-    background: #49587a;
+    background: #497a4b;
     border-radius: 4px;
     min-height: 45px;
 }
@@ -374,7 +374,7 @@ QTextEdit QScrollBar:vertical {
 }
 QTextEdit QScrollBar::handle:vertical {
     border: none;
-    background: #49587a;
+    background: #497a4b;
     border-radius: 5px;
     min-height: 30px;
 }
@@ -391,7 +391,7 @@ QPlainTextEdit QScrollBar:vertical {
 }
 QPlainTextEdit QScrollBar::handle:vertical {
     border: none;
-    background: #49587a;
+    background: #497a4b;
     border-radius: 5px;
     min-height: 30px;
 }
@@ -402,7 +402,7 @@ QComboBox QScrollBar:vertical {
     border-radius: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: #49587a;
+    background: #497a4b;
     width: 10px;
     padding: 0px 0px;
 }
@@ -444,7 +444,7 @@ QScrollBar:horizontal {
 }
 QScrollBar::handle:horizontal {
     border: none;
-    background: #49587a;
+    background: #497a4b;
     border-radius: 4px;
     min-width: 45px;
 }
@@ -515,7 +515,7 @@ QTableView::disabled{
 QTextEdit CSS
 --------------------------------------------*/
 QTextEdit {
-    border: 1px solid #49587A;
+    border: 1px solid #497a4b;
     border-radius: 14px;
     background-color: #1a3a22;
     color: #ffffff;
@@ -535,7 +535,7 @@ QTextEdit::disabled {
 QPlainTextEdit CSS
 --------------------------------------------*/
 QPlainTextEdit {
-    border: 1px solid #49587A;
+    border: 1px solid #497a4b;
     border-radius: 14px;
     background-color: #1a3a22;
     color: #ffffff;
@@ -579,7 +579,7 @@ UnitDisplayStatusBarControl {
     padding: 0px;
 }
 UnitDisplayStatusBarControl QMenu::item {
-    background-color: #49587a;
+    background-color: #497a4b;
     color: #1a3a22;
     padding: 4px;
     padding-left: 10px;
@@ -589,7 +589,7 @@ UnitDisplayStatusBarControl QMenu::item:selected {
     color: #ffffff;
 }
 UnitDisplayStatusBarControl QMenu{
-    background-color: #49587a;
+    background-color: #497a4b;
     border: none;
     border-radius: 6px;
     padding: 10px 0px;
@@ -676,7 +676,7 @@ QMenu{
 QMenu::item {
     border: none;
     padding: 5px 32px;
-    background-color: #49587a;
+    background-color: #497a4b;
     color: #1a3a22;
 }
 QMenu::item:selected {
@@ -793,11 +793,11 @@ System Tray Message CSS
 --------------------------------------------*/
 QBalloonTip{
     background: #e1e1e1;
-    color: #49587A;
-    border-color: #49587A;
+    color: #497a4b;
+    border-color: #497a4b;
 }
 QBalloonTip QLabel{
-    color: #49587A;
+    color: #497a4b;
 }
 QBalloonTip QPushButton{
     padding: 0px;
@@ -820,7 +820,7 @@ Push Button CSS
 QPushButton {
     color: #1a6e18; 
     background: transparent;
-    border: 1px solid #49587a;
+    border: 1px solid #497a4b;
     border-radius: 14px;
     min-width: 5em;
     padding: 6px;
@@ -890,7 +890,7 @@ QDateTimeEdit{
 }
 QDateTimeEdit:drop-down {
     border: 0px;
-    border-left: 1px solid #49587A;
+    border-left: 1px solid #497a4b;
     margin-left: -8px;
 }
 QDateTimeEdit::down-arrow:hover, QDateTimeEdit:down-arrow {
@@ -1093,7 +1093,7 @@ TokenItemWidget #tokenBalance{
     font: 13pt;
 }
 TokenItemWidget #senderAddress{
-    color: #49587a;
+    color: #497a4b;
     font: 10pt;
 }
 TokenItemWidget #tokenLogo{

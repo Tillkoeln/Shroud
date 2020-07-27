@@ -878,7 +878,7 @@ UniValue gettxout(const UniValue& params, bool fHelp)
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
             "     \"addresses\" : [          (array of string) array of Index addresses\n"
-            "        \"indexaddress\"     (string) Index address\n"
+            "        \"indexaddress\"     (string) Shroud address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"

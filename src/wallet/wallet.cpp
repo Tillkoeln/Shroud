@@ -5805,10 +5805,10 @@ bool CWallet::CreateZerocoinSpendTransaction(std::string &thirdPartyaddress, int
 
                 CBitcoinAddress address(thirdPartyaddress);
                 if (!address.IsValid()){
-                    strFailReason = _("Invalid Index address");
+                    strFailReason = _("Invalid Shroud address");
                     return false;
                 }
-                // Parse Index address
+                // Parse Shroud address
                 scriptChange = GetScriptForDestination(CBitcoinAddress(thirdPartyaddress).Get());
             }
 
@@ -6054,10 +6054,10 @@ bool CWallet::CreateSigmaSpendTransaction(
             } else {
                 CBitcoinAddress address(thirdPartyaddress);
                 if (!address.IsValid()){
-                    strFailReason = _("Invalid Index address");
+                    strFailReason = _("Invalid Shroud address");
                     return false;
                 }
-                // Parse Index address
+                // Parse Shroud address
                 scriptChange = GetScriptForDestination(CBitcoinAddress(thirdPartyaddress).Get());
             }
 
@@ -6342,10 +6342,10 @@ bool CWallet::CreateMultipleZerocoinSpendTransaction(std::string &thirdPartyaddr
             }else{
                  CBitcoinAddress address(thirdPartyaddress);
                 if (!address.IsValid()){
-                    strFailReason = _("Invalid Index address");
+                    strFailReason = _("Invalid Shroud address");
                     return false;
                 }
-                // Parse Index address
+                // Parse Shroud address
                 scriptChange = GetScriptForDestination(CBitcoinAddress(thirdPartyaddress).Get());
             }
 
@@ -6668,10 +6668,10 @@ bool CWallet::CreateMultipleSigmaSpendTransaction(
             }else{
                 CBitcoinAddress address(thirdPartyaddress);
                 if (!address.IsValid()) {
-                    strFailReason = _("Invalid Index address");
+                    strFailReason = _("Invalid Shroud address");
                     return false;
                 }
-                // Parse Index address
+                // Parse Shroud address
                 scriptChange = GetScriptForDestination(CBitcoinAddress(thirdPartyaddress).Get());
             }
 

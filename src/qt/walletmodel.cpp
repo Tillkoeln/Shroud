@@ -323,7 +323,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
             total += subtotal;
         }
         else
-        {   // User-entered Index address / amount:
+        {   // User-entered Shroud address / amount:
             if(!validateAddress(rcp.address))
             {
                 return InvalidAddress;
