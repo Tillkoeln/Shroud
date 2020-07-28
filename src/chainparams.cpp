@@ -178,14 +178,14 @@ public:
         //vFixedSeeds.clear();
         //vSeeds.clear();
         //Initial seeders to use
-        //vSeeds.push_back(CDNSSeedData("seed1.shroudx.org", "seed1.shroudx.org", false));
+        vSeeds.push_back(CDNSSeedData("seed1.shroudx.org", "seed1.shroudx.org", false));
 
         // Single trusted IPs incase of seeder failure / downtime
-        vSeeds.push_back(CDNSSeedData("188.166.250.71", "188.166.250.71")); 
-        vSeeds.push_back(CDNSSeedData("161.35.162.49", "161.35.162.49"));
-        vSeeds.push_back(CDNSSeedData("104.131.39.211", "104.131.39.211"));
-        vSeeds.push_back(CDNSSeedData("188.166.244.152", "188.166.244.152"));
-        vSeeds.push_back(CDNSSeedData("167.71.155.37", "167.71.155.37"));
+        vSeeds.push_back(CDNSSeedData("188.166.250.71", "188.166.250.71", false)); 
+        vSeeds.push_back(CDNSSeedData("161.35.162.49", "161.35.162.49", false));
+        vSeeds.push_back(CDNSSeedData("104.131.39.211", "104.131.39.211", false));
+        vSeeds.push_back(CDNSSeedData("188.166.244.152", "188.166.244.152", false));
+        vSeeds.push_back(CDNSSeedData("167.71.155.37", "167.71.155.37", false));
 
 
         // Note that of those with the service bits flag, most only support a subset of possible options
