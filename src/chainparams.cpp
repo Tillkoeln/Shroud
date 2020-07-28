@@ -214,10 +214,12 @@ public:
                 boost::assign::map_list_of
                     (0, genesis.GetHash()),
                     (501,uint256S("0x000000005c5581de7352f91a9d2528981004727df56dfb50aef53b9eadc28f7d"))
-                    
+                    (601,uint256S("0x000000000f1fd6cceee2305054ee3629f232636844d09b6409cd628d116278a9"))
+                    (701,uint256S("0x000000001ac322b43e3beff92727d2bad5edbb68010061eb74dbacc77d5a0b30"))
+                    (801,uint256S("0x00000000200843862a078b344e529736118412a7e0f2bc28123026fe31962959")),
 
-                1595847983,         // * UNIX timestamp of last checkpoint block
-                1,             // * total number of transactions between genesis and last checkpoint
+                1595892380,         // * UNIX timestamp of last checkpoint block
+                1000,             // * total number of transactions between genesis and last checkpoint
                                     //   (the tx=... number in the SetBestChain debug.log lines)
                 200                // * estimated number of transactions per day after checkpoint
         };
