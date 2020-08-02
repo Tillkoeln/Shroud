@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and shroud: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "index:")</translation>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "shroud:")</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,7 +411,7 @@
     </message>
     <message>
         <source>Open a shroud: URI or payment request</source>
-        <translation>Abrir un identificador URI "index:" o una petición de pago</translation>
+        <translation>Abrir un identificador URI "shroud:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -3091,8 +3091,8 @@
         <translation>Poner en lista blanca a los equipos que se conecten desde la máscara de subred o dirección IP especificada. Se puede especificar múltiples veces.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>Necesita reconstruir la base de datos usando -reshroud-chainstate para cambiar -txindex</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Necesita reconstruir la base de datos usando -reindex-chainstate para cambiar -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

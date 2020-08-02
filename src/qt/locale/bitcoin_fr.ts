@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and shroud: URIs)</source>
-        <translation>Demander des paiements (génère des codes QR et des URI index:)</translation>
+        <translation>Demander des paiements (génère des codes QR et des URI shroud:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1284,7 +1284,7 @@
     </message>
     <message>
         <source>Cannot start shroud: click-to-pay handler</source>
-        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer index:</translation>
+        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer shroud:</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -3072,8 +3072,8 @@
         <translation>Pairs de la liste blanche se connectant à partir du masque réseau ou de l'IP donné. Peut être spécifié plusieurs fois.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>Vous devez reconstruire la base de données avec -reshroud-chainstate pour changer -txindex</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Vous devez reconstruire la base de données avec -reindex-chainstate pour changer -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

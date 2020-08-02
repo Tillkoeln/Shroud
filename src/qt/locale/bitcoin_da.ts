@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and shroud: URIs)</source>
-        <translation>Anmod om betalinger (genererer QR-koder og "index:"-URI'er)</translation>
+        <translation>Anmod om betalinger (genererer QR-koder og "shroud:"-URI'er)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,7 +411,7 @@
     </message>
     <message>
         <source>Open a shroud: URI or payment request</source>
-        <translation>Åbn en "index:"-URI eller betalingsanmodning</translation>
+        <translation>Åbn en "shroud:"-URI eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -2231,7 +2231,7 @@
     </message>
     <message>
         <source>A message that was attached to the shroud: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Shroud network.</source>
-        <translation>En besked, som blev føjet til index:-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Shroud-netværket.</translation>
+        <translation>En besked, som blev føjet til shroud:-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Shroud-netværket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -3092,8 +3092,8 @@
         <translation>Sæt andre knuder, der forbinder fra den angivne netmaske eller IP, på hvidliste. Kan angives flere gange.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>Du er nødt til at genopbygge databasen ved hjælp af -reshroud-chainstate for at ændre -txindex</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Du er nødt til at genopbygge databasen ved hjælp af -reindex-chainstate for at ændre -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

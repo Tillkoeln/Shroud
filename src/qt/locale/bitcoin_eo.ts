@@ -223,7 +223,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and shroud: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso index:)</translation>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso shroud:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -235,7 +235,7 @@
     </message>
     <message>
         <source>Open a shroud: URI or payment request</source>
-        <translation>Malfermi index:-URI-on aŭ pagpeton</translation>
+        <translation>Malfermi shroud:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

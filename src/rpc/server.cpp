@@ -255,11 +255,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Index server.");
+            "\nStop Shroud server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Index server stopping";
+    return "Shroud server stopping";
 }
 
 /**
@@ -277,14 +277,14 @@ static const CRPCCommand vRPCCommands[] =
     { "addressindex",       "getaddressdeltas",       &getaddressdeltas,       false },
     { "addressindex",       "getaddresstxids",        &getaddresstxids,        false },
     { "addressindex",       "getaddressbalance",      &getaddressbalance,      false },
-        /* Index features */
-    { "index",               "shroudnode",                 &shroudnode,                  true  },
-    { "index",               "insync",                &insync,                 true  },
-    { "index",               "shroudnodelist",             &shroudnodelist,              true  },
-    { "index",               "shroudnodebroadcast",        &shroudnodebroadcast,         true  },
-    { "index",               "spork",                 &spork,                  true  },
-    { "index" ,              "createsporkkeypair",    &createsporkkeypair,     true  },
-    { "index",               "getpoolinfo",           &getpoolinfo,            true  },
+        /* Shroud features */
+    { "shroud",               "shroudnode",            &shroudnode,             true  },
+    { "shroud",               "insync",                &insync,                 true  },
+    { "shroud",               "shroudnodelist",        &shroudnodelist,         true  },
+    { "shroud",               "shroudnodebroadcast",   &shroudnodebroadcast,    true  },
+    { "shroud",               "spork",                 &spork,                  true  },
+    { "shroud" ,              "createsporkkeypair",    &createsporkkeypair,     true  },
+    { "shroud",               "getpoolinfo",           &getpoolinfo,            true  },
 };
 
 CRPCTable::CRPCTable()

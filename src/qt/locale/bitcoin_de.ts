@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and shroud: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "index:"-URIs)</translation>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und "shroud:"-URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,7 +411,7 @@
     </message>
     <message>
         <source>Open a shroud: URI or payment request</source>
-        <translation>Eine "index:"-URI oder Zahlungsanforderung öffnen</translation>
+        <translation>Eine "shroud:"-URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -2227,7 +2227,7 @@
     </message>
     <message>
         <source>A message that was attached to the shroud: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Shroud network.</source>
-        <translation>Eine an die "index:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Shroud-Netzwerk gesendet.</translation>
+        <translation>Eine an die "shroud:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Shroud-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2632,8 +2632,8 @@
         <translation>Gegenstellen die sich von der angegebenen Netzmaske oder IP-Adresse aus verbinden immer zulassen. Kann mehrmals angegeben werden.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>Sie müssen die Datenbank mit Hilfe von -reshroud-chainstate neu aufbauen, um -txindex zu verändern</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Sie müssen die Datenbank mit Hilfe von -reindex-chainstate neu aufbauen, um -txindex zu verändern</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

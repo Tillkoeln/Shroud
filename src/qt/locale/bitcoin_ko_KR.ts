@@ -1948,8 +1948,8 @@
         <translation>설정된 넷마스크 혹은 IP 주소로 화이트리스트에 포함된 피어에 접속합니다. 이 설정은 복수로 지정 할 수 있습니다.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>-txindex를 바꾸기 위해서는 -reshroud-chainstate를 사용해서 데이터베이스를 재구성해야 합니다. </translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>-txindex를 바꾸기 위해서는 -reindex-chainstate를 사용해서 데이터베이스를 재구성해야 합니다. </translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

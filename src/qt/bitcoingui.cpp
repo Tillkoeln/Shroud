@@ -363,7 +363,7 @@ void BitcoinGUI::createActions()
     // These showNormalIfMinimized are needed because Send Coins and Receive Coins
     // can be triggered from the tray menu, and need to show the GUI to be useful.
     shroudnodeAction = new QAction(platformStyle->MultiStatesIcon(":/icons/shroudnodes"), tr("&Shroudnodes"), this);
-    shroudnodeAction->setStatusTip(tr("Browse shroudnodes"));
+    shroudnodeAction->setStatusTip(tr("Browse Shroudnodes"));
     shroudnodeAction->setToolTip(shroudnodeAction->statusTip());
     shroudnodeAction->setCheckable(true);
 #ifdef Q_OS_MAC
@@ -454,9 +454,9 @@ void BitcoinGUI::createActions()
     changePassphraseAction = new QAction(platformStyle->SingleColorIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(platformStyle->SingleColorIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Index addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your Shroud addresses to prove you own them"));
     verifyMessageAction = new QAction(platformStyle->SingleColorIcon(":/icons/verify"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Index addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Shroud addresses"));
 
     openRepairAction = new QAction(QIcon(":/icons/options"), tr("Wallet &Repair"), this);
     openRepairAction->setStatusTip(tr("Show wallet repair options"));

@@ -1811,7 +1811,7 @@
     </message>
     <message>
         <source>A message that was attached to the shroud: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Shroud network.</source>
-        <translation>Wiadomość, która została dołączona do URI index:, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci Shroud.</translation>
+        <translation>Wiadomość, która została dołączona do URI shroud:, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci Shroud.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2145,8 +2145,8 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
         <translation>Dodawaj do białej listy węzły łączące się z podanej maski sieciowej lub adresu IP. Może być określona kilka razy.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>Musisz przebudować bazę używając -reshroud-chainstate aby zmienić -txindex</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Musisz przebudować bazę używając -reindex-chainstate aby zmienić -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

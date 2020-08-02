@@ -299,7 +299,7 @@ QT_TRANSLATE_NOOP("shroud-core", ""
 "You need to rebuild the database using -reindex to go back to unpruned "
 "mode.  This will redownload the entire blockchain"),
 QT_TRANSLATE_NOOP("shroud-core", ""
-"You need to rebuild the database using -reshroud-chainstate to change -txindex"),
+"You need to rebuild the database using -reindex-chainstate to change -txindex"),
 QT_TRANSLATE_NOOP("shroud-core", ""
 "Your configuration file has been updated.\n"
 "\n"

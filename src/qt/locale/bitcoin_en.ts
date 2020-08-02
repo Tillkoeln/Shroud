@@ -3980,7 +3980,7 @@
     </message>
     <message>
         <location line="+12"/>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
