@@ -2036,8 +2036,8 @@
         <translation>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>You need to rebuild the database using -reshroud-chainstate to change -txindex</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>You need to rebuild the database using -reindex-chainstate to change -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

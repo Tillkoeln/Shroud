@@ -2996,8 +2996,8 @@
         <translation>Vždy vítat protějšky připojující se z dané podsítě či IP adresy. Lze zadat i vícekrát.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>Je třeba přestavět databázi použitím -reshroud-chainstate, aby bylo možné změnit -txindex</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Je třeba přestavět databázi použitím -reindex-chainstate, aby bylo možné změnit -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

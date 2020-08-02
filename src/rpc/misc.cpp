@@ -397,7 +397,7 @@ UniValue createmultisig(const UniValue& params, bool fHelp)
 
             "\nArguments:\n"
             "1. nrequired      (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-            "2. \"keys\"       (string, required) A json array of keys which are Index addresses or hex-encoded public keys\n"
+            "2. \"keys\"       (string, required) A json array of keys which are Shroud addresses or hex-encoded public keys\n"
             "     [\n"
             "       \"key\"    (string) Shroud address or hex-encoded public key\n"
             "       ,...\n"
@@ -434,10 +434,10 @@ UniValue verifymessage(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
         throw runtime_error(
-            "verifymessage \"indexaddress\" \"signature\" \"message\"\n"
+            "verifymessage \"shroudaddress\" \"signature\" \"message\"\n"
             "\nVerify a signed message\n"
             "\nArguments:\n"
-            "1. \"indexaddress\"  (string, required) The Shroud address to use for the signature.\n"
+            "1. \"shroudaddress\"  (string, required) The Shroud address to use for the signature.\n"
             "2. \"signature\"       (string, required) The signature provided by the signer in base 64 encoding (see signmessage).\n"
             "3. \"message\"         (string, required) The message that was signed.\n"
             "\nResult:\n"

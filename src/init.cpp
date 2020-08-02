@@ -436,7 +436,7 @@ std::string HelpMessage(HelpMessageMode mode) {
                       "Warning: Reverting this setting requires re-downloading the entire blockchain. "
                       "(default: 0 = disable pruning blocks, >%u = target size in MiB to use for block files)"),
             MIN_DISK_SPACE_FOR_BLOCK_FILES / 1024 / 1024));
-    strUsage += HelpMessageOpt("-reshroud-chainstate", _("Rebuild chain state from the currently indexed blocks"));
+    strUsage += HelpMessageOpt("-reindex-chainstate", _("Rebuild chain state from the currently indexed blocks"));
     strUsage += HelpMessageOpt("-reindex", _("Rebuild chain state and block index from the blk*.dat files on disk"));
     strUsage += HelpMessageOpt("-resync", _("Delete blockchain folders and resync from scratch") + " " + _("on startup"));
 #ifndef WIN32
@@ -1721,7 +1721,7 @@ bool AppInit2(boost::thread_group &threadGroup, CScheduler &scheduler) {
     // ********************************************************* Step 7: load block chain
     LogPrintf("Step 7: load block chain ************************************\n");
     fReindex = GetBoolArg("-reindex", false);
-    bool fReindexChainState = GetBoolArg("-reshroud-chainstate", false);
+    bool fReindexChainState = GetBoolArg("-reindex-chainstate", false);
 #ifdef ENABLE_CLIENTAPI
     if(fApi)
         pzmqPublisherInterface->StartWorker();
@@ -1850,7 +1850,7 @@ bool AppInit2(boost::thread_group &threadGroup, CScheduler &scheduler) {
 
                 // Check for changed -txindex state
                 if (fTxIndex != GetBoolArg("-txindex", DEFAULT_TXINDEX)) {
-                    strLoadError = _("You need to rebuild the database using -reshroud-chainstate to change -txindex");
+                    strLoadError = _("You need to rebuild the database using -reindex-chainstate to change -txindex");
                     break;
                 }
 
@@ -1907,7 +1907,7 @@ bool AppInit2(boost::thread_group &threadGroup, CScheduler &scheduler) {
             if (!fReset) {
                 bool fRet = uiInterface.ThreadSafeQuestion(
                         strLoadError + ".\n\n" + _("Do you want to rebuild the block database now?"),
-                        strLoadError + ".\nPlease restart with -reindex or -reshroud-chainstate to recover.",
+                        strLoadError + ".\nPlease restart with -reindex or -reindex-chainstate to recover.",
                         "", CClientUIInterface::MSG_ERROR | CClientUIInterface::BTN_ABORT);
                 if (fRet || fApi) { // Force reindex when using client-api
                     fReindex = true;

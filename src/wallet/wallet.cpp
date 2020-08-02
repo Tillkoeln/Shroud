@@ -4612,7 +4612,7 @@ bool CWallet::CreateSigmaMintModel(
         int64_t denominationValue;
         if (!DenominationToInteger(denomination, denominationValue)) {
             throw runtime_error(
-                "mintzerocoin <amount>(0.1, 0.5, 1, 10, 100) (\"indexaddress\")\n");
+                "mintzerocoin <amount>(0.1, 0.5, 1, 10, 100) (\"shroudaddress\")\n");
         }
 
         int64_t coinCount = denominationPair.second;
@@ -4621,7 +4621,7 @@ bool CWallet::CreateSigmaMintModel(
             denominationValue, coinCount);
 
         if(coinCount < 0) {
-            throw runtime_error("Coin count negative (\"indexaddress\")\n");
+            throw runtime_error("Coin count negative (\"shroudaddress\")\n");
         }
 
         sigma::Params* sigmaParams = sigma::Params::get_default();
@@ -4739,7 +4739,7 @@ bool CWallet::CreateZerocoinMintModelV2(
                 break;
             default:
                 throw runtime_error(
-                    "mintzerocoin <amount>(1,10,25,50,100) (\"indexaddress\")\n");
+                    "mintzerocoin <amount>(1,10,25,50,100) (\"shroudaddress\")\n");
         }
 
         int64_t amount = denominationPair.second;
@@ -4748,7 +4748,7 @@ bool CWallet::CreateZerocoinMintModelV2(
 
         if(amount < 0){
                 throw runtime_error(
-                    "mintzerocoin <amount>(1,10,25,50,100) (\"indexaddress\")\n");
+                    "mintzerocoin <amount>(1,10,25,50,100) (\"shroudaddress\")\n");
         }
 
         for(int64_t i=0; i<amount; i++){

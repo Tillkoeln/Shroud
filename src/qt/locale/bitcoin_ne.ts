@@ -394,7 +394,7 @@
         <translation>दिइएको नेटमास्क वा ठेगानाबाट कनेक्ट भइरहेका श्वेतसूचीका सहकर्मी ।</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
         <translation>तपाईंले -चेनस्टेट-पुनः सूचकांकबाट -txindex परिवर्तन प्रयोग गरेर डाटाबेस पुनर्निर्माण गर्नु आवश्यक छ</translation>
     </message>
     <message>

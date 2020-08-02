@@ -63,6 +63,7 @@ class HDMintMempoolZapTest(BitcoinTestFramework):
         bitcoind_processes[0].wait()
 
         self.nodes[0] = start_node(0,self.options.tmpdir, configuration)
+        time.sleep(1) # rescan time
 
         # 8. check listunspentmints - should be as on step 5 (cause ["-zapwallettxes"] clean mempool)
         sigma_mints2 = self.nodes[0].listunspentsigmamints()
@@ -79,6 +80,7 @@ class HDMintMempoolZapTest(BitcoinTestFramework):
         bitcoind_processes[0].wait()
 
         self.nodes[0] = start_node(0, self.options.tmpdir, configuration)
+        time.sleep(1) # rescan time
 
         # 11. check listunspentmints - should be as on step 5 (cause ["-zapwallettxes"] clean mempool)
         sigma_mints3 = self.nodes[0].listunspentsigmamints()

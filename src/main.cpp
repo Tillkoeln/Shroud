@@ -80,7 +80,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Index cannot be compiled without assertions."
+# error "Shroud cannot be compiled without assertions."
 #endif
 
 /**
@@ -120,7 +120,7 @@ CTxMemPool mempool(::minRelayTxFee);
 FeeFilterRounder filterRounder(::minRelayTxFee);
 CTxMemPool stempool(::minRelayTxFee);
 
-// Index shroudnode
+// Shroud shroudnode
 map <uint256, int64_t> mapRejectedBlocks GUARDED_BY(cs_main);
 
 struct IteratorComparator {
@@ -153,7 +153,7 @@ static void CheckBlockIndex(const Consensus::Params &consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Index Signed Message:\n";
+const string strMessageMagic = "Shroud Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -6224,7 +6224,7 @@ bool static AlreadyHave(const CInv &inv) EXCLUSIVE_LOCKS_REQUIRED(cs_main) {
             return false;
 
         /*
-            Index Related Inventory Messages
+            Shroud Related Inventory Messages
 
             --
 

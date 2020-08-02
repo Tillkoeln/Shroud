@@ -617,7 +617,7 @@ Tab Bar CSS
 --------------------------------------------*/
 QTabBar::tab {
     background-color: transparent;
-    color: #4d6087;
+    color: #52874d;
     padding: 11px 0px;
     border-width: 0px;
     border-radius: 0px;
@@ -627,12 +627,12 @@ QTabBar::tab {
     margin-right: 10px;
 }
 QTabBar::tab:selected {
-    color: #4d6087;
-    border-bottom: 3px solid #4d6087;
+    color: #52874d;
+    border-bottom: 3px solid #52874d;
 }
 QTabBar::tab:hover:!selected {
-    color: #18aae0;
-    border-bottom: 3px solid #18aae0;
+    color: #18e02b;
+    border-bottom: 3px solid #18e02b;
 }
 QTabBar::tab:disabled {
     color: rgba(111, 128, 171, 20%);

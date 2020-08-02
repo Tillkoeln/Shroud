@@ -20,7 +20,7 @@ OpenURIDialog::OpenURIDialog(QWidget *parent) :
     SetObjectStyleSheet(ui->buttonBox->button(QDialogButtonBox::Ok), StyleSheetNames::ButtonGray);
 
 #if QT_VERSION >= 0x040700
-    ui->uriEdit->setPlaceholderText("index:");
+    ui->uriEdit->setPlaceholderText("shroud:");
 #endif
 }
 

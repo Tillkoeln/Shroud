@@ -112,7 +112,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1611840329; // November 15th, 2017.
 
         // The best chain should have at least this much work
-        consensus.nMinimumChainWork = uint256S("0x00");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000001f7538ccd169");
 
         consensus.nCheckBugFixedAtBlock = ZC_CHECK_BUG_FIXED_AT_BLOCK;
         consensus.nShroudnodePaymentsBugFixedAtBlock = ZC_SHROUDNODE_PAYMENT_BUG_FIXED_AT_BLOCK;
@@ -216,12 +216,22 @@ public:
                     (501,uint256S("0x000000005c5581de7352f91a9d2528981004727df56dfb50aef53b9eadc28f7d"))
                     (601,uint256S("0x000000000f1fd6cceee2305054ee3629f232636844d09b6409cd628d116278a9"))
                     (701,uint256S("0x000000001ac322b43e3beff92727d2bad5edbb68010061eb74dbacc77d5a0b30"))
-                    (801,uint256S("0x00000000200843862a078b344e529736118412a7e0f2bc28123026fe31962959")),
+                    (801,uint256S("0x00000000200843862a078b344e529736118412a7e0f2bc28123026fe31962959"))
+                    (901,uint256S("0x000000000b027366ebf34a265edca4526335f0cb39e684f3a44ef15d270e29c9"))
+                    (1001,uint256S("0x000000000f8ea629205f51147fdb0632abfd9c9358ffea8f2fe0c2cb04c1e76a"))
+                    (1101,uint256S("0x0000000002d46a17fc6d2bd992ffc58353a02bdee21f9cce7570bda38257eec9"))
+                    (1201,uint256S("0x0000000014be4904b58ee7a482de29ade97f166f37233549b4fadb43dab3d03f"))
+                    (2201,uint256S("0x000000001b5599df209fd9f75b51a86eda63b2460d4782c16c1b4fb9885e9c27"))
+                    (2301,uint256S("0x0000000020878c23c733efc3acf5cd4c41673d3d60f3b42c878913a7656a000d"))
+                    (3301,uint256S("0x0000000005fed918f715a5b26ed5792abf99e73901ba09f8c1fcd7f702743eb5"))
+                    (4301,uint256S("0x00000000022da22211a2e47f929af8dd4cb42bc1af48a814e15ade1d826aefcc")),
+                    
 
-                1595892380,         // * UNIX timestamp of last checkpoint block
-                1000,             // * total number of transactions between genesis and last checkpoint
+
+                1596334852,         // * UNIX timestamp of last checkpoint block
+                10509,             // * total number of transactions between genesis and last checkpoint
                                     //   (the tx=... number in the SetBestChain debug.log lines)
-                200                // * estimated number of transactions per day after checkpoint
+                1440                // * estimated number of transactions per day after checkpoint
         };
 
         consensus.nSpendV15StartBlock = ZC_V1_5_STARTING_BLOCK;

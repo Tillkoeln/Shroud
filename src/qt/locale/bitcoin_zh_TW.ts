@@ -3089,8 +3089,8 @@
         <translation>把來自指定網域或位址的節點放進白名單。這個選項可以設定多次。</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>改變 -txindex 參數後，必須要用 -reshroud-chainstate 參數來重建資料庫</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>改變 -txindex 參數後，必須要用 -reindex-chainstate 參數來重建資料庫</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

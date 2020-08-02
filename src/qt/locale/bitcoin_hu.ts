@@ -235,7 +235,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and shroud: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "index:" URI azonosítót hoz létre)</translation>
+        <translation>Fizetési kérelem (QR-kódot és "shroud:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>Open a shroud: URI or payment request</source>
-        <translation>"index:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <translation>"shroud:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and shroud: URIs)</source>
-        <translation>支払いを要求する (QRコードとindex:ではじまるURIを生成する)</translation>
+        <translation>支払いを要求する (QRコードとshroud:ではじまるURIを生成する)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -3088,8 +3088,8 @@
         <translation>与えられたネットマスクやIPアドレスから接続を行う、ホワイトリストのピア。複数回指定できます。</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reshroud-chainstate to change -txindex</source>
-        <translation>-txindex を変更するには -reshroud-chainstate を使用してデータベースを再構築する必要があります</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>-txindex を変更するには -reindex-chainstate を使用してデータベースを再構築する必要があります</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>

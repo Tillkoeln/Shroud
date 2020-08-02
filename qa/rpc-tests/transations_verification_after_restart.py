@@ -7,7 +7,7 @@ from test_framework.util import *
 
 from pprint import pprint
 
-# Zapwallettxes, rescan, reindex, reshroud-chainstate are not affect existing transactions
+# Zapwallettxes, rescan, reindex, reindex-chainstate are not affect existing transactions
 
 
 #1. Generate some blocks
@@ -27,7 +27,7 @@ from pprint import pprint
 #15. Check all transactions shown properly as before restart 
 #16. Restart with reindex
 #17. Check all transactions shown properly as before restart 
-#18. Restart with reshroud-chainstate
+#18. Restart with reindex-chainstate
 #19. Check all transactions shown properly as before restart 
 
 class TransactionsVerAfterRestartTest(BitcoinTestFramework):
@@ -154,8 +154,8 @@ class TransactionsVerAfterRestartTest(BitcoinTestFramework):
         self.nodes[0].stop()
         bitcoind_processes[0].wait()
 
-        #18. Restart with reshroud-chainstate
-        self.nodes[0] = start_node(0,self.options.tmpdir, ["-reshroud-chainstate"])
+        #18. Restart with reindex-chainstate
+        self.nodes[0] = start_node(0,self.options.tmpdir, ["-reindex-chainstate"])
 
         time.sleep(5)
         
@@ -163,7 +163,7 @@ class TransactionsVerAfterRestartTest(BitcoinTestFramework):
         tx_after_reindex_chainstate = sorted(self.nodes[0].listtransactions("*", 1000), key=lambda k: k['txid'], reverse=True)
 
         assert tx_before == tx_after_reindex_chainstate, \
-            'List of transactions after restart with reshroud-chainstate unexpectedly changed.'
+            'List of transactions after restart with reindex-chainstate unexpectedly changed.'
 
 
 
