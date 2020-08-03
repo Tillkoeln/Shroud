@@ -1,4 +1,9 @@
 #!/bin/sh
+# Copyright (c) 2020 The Shroud Core Developers
+# Distributed under the MIT software license, see the accompanying
+# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+
 clear
 echo "Starting Shroudnode Auto Config script"
 cd && cd /usr/local/bin
