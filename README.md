@@ -105,6 +105,8 @@ Build
 
         ``make check``
 
+
 Setting up a Shroudnode
+==================================
 
 Read [contrib/masternode-setup-scripts/README.md](contrib/masternode-setup-scripts/README.md) for instructions.
