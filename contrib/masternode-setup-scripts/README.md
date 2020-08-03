@@ -144,7 +144,7 @@ cd
 cd Shroud/contrib/masternode-setup-scripts/shell-scripts
 ./Update.sh
 ```
-Note: I will automatically updates your daemon
+Note: It will automatically updates your daemon
 
 
 
