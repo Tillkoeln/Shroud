@@ -56,7 +56,7 @@ UniValue getnetworkhashps(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 2)
         throw runtime_error(
             "getnetworkhashps ( blocks height )\n"
-            "\nReturns the estimated network hashes per second based on the last n blocks.\n"
+            "\nReturns the estimated network hashes per second based on the last n blocks (for PoW only).\n"
             "Pass in [blocks] to override # of blocks, -1 specifies since last difficulty change.\n"
             "Pass in [height] to estimate the network speed at the time when a certain block was found.\n"
             "\nArguments:\n"
