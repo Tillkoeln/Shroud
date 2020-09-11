@@ -53,7 +53,7 @@ echo "Setting up and enabling fail2ban..."
 sudo apt-get install fail2ban -y
 sudo ufw allow ssh
 sudo ufw allow 42998
-sudo ufw enable -y
+sudo ufw enable
 echo "Launching shroudd..."
 cd && cd /usr/local/bin
 shroudd -daemon
