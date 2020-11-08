@@ -188,7 +188,7 @@ QStringList StyleSheet::getSupportedThemesNames()
 
 QString StyleSheet::getDefaultTheme()
 {
-    return "theme2";
+    return "theme1";
 }
 
 bool StyleSheet::setTheme(const QString &theme)

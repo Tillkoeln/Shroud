@@ -1,6 +1,6 @@
-# How to compile and execute Shroud code on Windows 10
+# How to compile and execute ShroudX code on Windows 10
 
-There are two possibilities of compiling Shroud code on Windows 10.
+There are two possibilities of compiling ShroudX code on Windows 10.
  Both of them are based on using [WSL/Ubuntu](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
  The main difference is in execution, using first method you will get .exe files, otherwise you need to use [Xming](http://www.straightrunning.com/XmingNotes/) to start **GUI**.
  
@@ -49,8 +49,8 @@ For the more complex second execution method, you need to install
 
 5. Clone git repository into newly created directory and go to the right branch
    
-            git clone https://github.com/ShroudXProject/Shroud.git
-            cd Shroud
+            git clone https://github.com/ShroudProtocol/ShroudX.git
+            cd ShroudX
     If you are not authorized in git, configure git to always use LF and (optionally) specify your name/email. Global Windows git settings (if set)
     won't be inherited if git is invoked from Ubuntu shell.
 
@@ -105,12 +105,12 @@ For the more complex second execution method, you need to install
 
     Now do either step **7** OR step **8**, not both.
 
-6. Build 32-bit debug build (from the Shroud root directory)
+6. Build 32-bit debug build (from the ShroudX root directory)
     
         ./configure --prefix=$HOME/shroud-depends/i686-w64-mingw32
         make -j`nproc`
 
-7. Build 64-bit debug build (from the Shroud root directory)
+7. Build 64-bit debug build (from the ShroudX root directory)
      
         ./configure --prefix=$HOME/shroud-depends/x86_64-w64-mingw32
         make -j`nproc`
@@ -120,7 +120,7 @@ For the more complex second execution method, you need to install
         C:\Users\<username>\shroud\src\qt
 ----
 ## Second method - Ubuntu + Xming
-1. Use existing paper [build-unix](https://github.com/ShroudXProject/Shroud/blob/master/doc/build-unix.md) and
+1. Use existing paper [build-unix](https://github.com/ShroudProtocol/ShroudX/blob/master/doc/build-unix.md) and
     * Install all dependencies
     * Build app
 2. Start installed Xming in Windows

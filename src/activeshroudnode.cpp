@@ -233,8 +233,8 @@ void CActiveShroudnode::ManageStateInitial() {
         return;
     }
 
-    if (pwalletMain->GetBalance() < SHROUDNODE_COIN_REQUIRED * COIN) {
-        LogPrintf("CActiveShroudnode::ManageStateInitial -- %s: Wallet balance is < 10000 SHROUD\n", GetStateString());
+    if (pwalletMain->GetBalance() < SHROUDNODE_COIN_REQUIRED(chainActive.Height()) * COIN) {
+        LogPrintf("CActiveShroudnode::ManageStateInitial -- %s: Wallet balance is < 50000 SHROUD\n", GetStateString());
         return;
     }
 

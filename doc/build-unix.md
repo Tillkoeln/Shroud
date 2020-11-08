@@ -1,12 +1,12 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Shroud Core in Unix.
+Some notes on how to build ShroudX Core in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
 
 Note
 ---------------------
-Always use absolute paths to configure and compile Shroud and the dependencies,
+Always use absolute paths to configure and compile ShroudX and the dependencies,
 for example, when specifying the path of the dependency:
 
 	../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
@@ -14,7 +14,7 @@ for example, when specifying the path of the dependency:
 Here BDB_PREFIX must be an absolute path - it is defined using $(pwd) which ensures
 the usage of the absolute path.
 
-To Build Shroud
+To Build ShroudX
 ---------------------
 
 ```bash

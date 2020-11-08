@@ -69,7 +69,7 @@ You can then eg. generate blocks using `./shroud-cli generate 10`, and you shoul
     - Use the following command:
         `await $daemon.send(null, '{TYPE}', '{METHOD_NAME}', {JSON_ARGS})`
 
-   refer to https://github.com/ShroudXProject/Shroud/tree/client-api/src/client-api for data formats.
+   refer to https://github.com/ShroudProtocol/ShroudX/tree/client-api/src/client-api for data formats.
 
 ### Settings
   As in Qt with `QSettings`, the client adds a level to the settings hierarchy in `shroudd`. The following is the current hierarchy, in descending order of importance:

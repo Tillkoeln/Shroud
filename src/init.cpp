@@ -726,8 +726,8 @@ std::string HelpMessage(HelpMessageMode mode) {
 }
 
 std::string LicenseInfo() {
-    const std::string URL_SOURCE_CODE = "<https://github.com/ShroudXProject/Shroud>";
-    const std::string URL_WEBSITE = "<https://shroudx.org/>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/ShroudProtocol/ShroudX>";
+    const std::string URL_WEBSITE = "<https://shroudx.eu/>";
     // todo: remove urls from translations on next change
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +

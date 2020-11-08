@@ -1,9 +1,9 @@
-Shroud Core 0.1.1.x
+ShroudX Core 0.1.1.x
 =====================
 
 Setup
 ---------------------
-[Shroud Core] (https://shroudx.org/get-shroud/) is the original Shroud client and it builds the backbone of the network. However, it downloads and stores the entire history of Shroud transactions (which is currently several hundreds MBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[ShroudX Core] (https://shroudx.eu/) is the original ShroudX client and it builds the backbone of the network. However, it downloads and stores the entire history of Shroud transactions (which is currently several hundreds MBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 Running
 ---------------------

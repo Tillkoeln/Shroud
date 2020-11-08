@@ -23,8 +23,8 @@ packages:
 - "python"
 - "rename"
 remotes:
-- "url": "https://github.com/ShroudXProject/Shroud"
-  "dir": "Shroud"
+- "url": "https://github.com/ShroudProtocol/ShroudX"
+  "dir": "ShroudX"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped

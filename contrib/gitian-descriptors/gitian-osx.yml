@@ -34,8 +34,8 @@ packages:
 - "python3-pip"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/ShroudXProject/Shroud"
-  "dir": "Shroud"
+- "url": "https://github.com/ShroudProtocol/ShroudX"
+  "dir": "ShroudX"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 - "ds_store-1.1.2.tar.gz"

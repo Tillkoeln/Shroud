@@ -1,11 +1,11 @@
 #!/bin/sh
-# Copyright (c) 2020 The Shroud Core Developers
+# Copyright (c) 2020 The ShroudX Core Developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 
 clear
-echo "Starting Shroudnode auto download and install script"
+echo "Starting ShroudXnode auto download and install script"
 echo "Updating the machine..."
 sudo apt-get update
 echo "Machine successfully updated"
@@ -39,10 +39,10 @@ echo -e "Successfully installed libminiupnpc-dev\n
 echo "Successfully installed required dependencies"
 echo "Updating/Upgrading OS..."
 sudo apt update && sudo apt upgrade -y
-echo "Downloading Shroud latest build..."
-wget -N https://github.com/ShroudXProject/Shroud/releases/download/v1.2.1/shroud-1.2.1-x86_64-linux-gnu.tar.gz
+echo "Downloading ShroudX latest build..."
+wget -N https://github.com/ShroudProtocol/ShroudX/releases/download/v1.2.4/shroudx-1.2.4-x86_64-ubuntu-18.04.tar.gz
 echo "Extracting build..."
-sudo tar -C /usr/local/bin -zxvf shroud-1.2.1-x86_64-linux-gnu.tar.gz
+sudo tar -C /usr/local/bin -zxvf shroudx-1.2.4-x86_64-ubuntu-18.04.tar.gz
 echo "Setting permissions..."
 cd && sudo chmod +x /usr/local/bin/shroud*
 sudo chmod +x /usr/local/bin/tor*
@@ -58,6 +58,6 @@ echo "Launching shroudd..."
 cd && cd /usr/local/bin
 shroudd -daemon
 echo "Cleaning up..."
-cd && cd Shroud/contrib/masternode-setup-scripts/shell-scripts
-rm -rf shroud-1.2.1-x86_64-linux-gnu.tar.gz
-echo "Shroudnode Installed Successfully!"
+cd && cd ShroudX/contrib/masternode-setup-scripts/shell-scripts
+rm -rf shroudx-1.2.4-x86_64-ubuntu-18.04.tar.gz
+echo "ShroudXnode Installed Successfully!"

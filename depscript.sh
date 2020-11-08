@@ -1,6 +1,6 @@
 #!/bin/sh
 clear
-echo "Starting Shroud dependencies shell installer"
+echo "Starting ShroudX dependencies shell installer"
 echo "Updating the machine..."
 sudo apt-get update
 echo "Machine successfully updated"
